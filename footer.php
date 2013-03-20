@@ -24,37 +24,37 @@
 <?php wp_footer(); ?>
 <script>
   document.write('<script src=' +
-  ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+  ('__proto__' in {} ? '<?php echo get_template_directory_uri(); ?>/js/vendor/zepto' : '<?php echo get_template_directory_uri(); ?>/js/vendor/jquery') +
   '.js><\/script>')
   </script>
   
-  <script src="javascripts/foundation/foundation.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.js"></script>
 	
-	<script src="javascripts/foundation/foundation.topbar.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.topbar.js"></script>
 	
-	<script src="javascripts/foundation/foundation.joyride.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.joyride.js"></script>
 	
-	<script src="javascripts/foundation/foundation.alerts.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.alerts.js"></script>
 	
-	<script src="javascripts/foundation/foundation.reveal.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.reveal.js"></script>
 	
-	<script src="javascripts/foundation/foundation.placeholder.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.placeholder.js"></script>
 	
-	<script src="javascripts/foundation/foundation.orbit.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.orbit.js"></script>
 	
-	<script src="javascripts/foundation/foundation.clearing.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.clearing.js"></script>
 	
-	<script src="javascripts/foundation/foundation.magellan.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.magellan.js"></script>
 	
-	<script src="javascripts/foundation/foundation.section.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.section.js"></script>
 	
-	<script src="javascripts/foundation/foundation.forms.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.forms.js"></script>
 	
-	<script src="javascripts/foundation/foundation.tooltips.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.tooltips.js"></script>
 	
-	<script src="javascripts/foundation/foundation.cookie.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.cookie.js"></script>
 	
-	<script src="javascripts/foundation/foundation.dropdown.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation/foundation.dropdown.js"></script>
 	
   
   <script>

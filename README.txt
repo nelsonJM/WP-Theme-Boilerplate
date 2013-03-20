@@ -1,1 +1,0 @@
-Underscores theme plus Foundation for creating WordPress themes.

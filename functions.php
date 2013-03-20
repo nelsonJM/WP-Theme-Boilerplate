@@ -133,6 +133,8 @@ add_action( 'widgets_init', 'uwp_boilerplate_widgets_init' );
 function uwp_boilerplate_scripts() {
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'app', get_template_directory_uri() . '/app.css' );
+
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
