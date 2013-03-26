@@ -18,6 +18,7 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 			<div class="row">
     			<div class="large-8 columns">
+    				<div class="meat">
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
@@ -40,9 +41,10 @@ get_header(); ?>
 			<?php get_template_part( 'no-results', 'index' ); ?>
 
 		<?php endif; ?>
-				</div>
+						</div>
+					</div>
 				<div class="large-4 columns">
-					<?php get_sidebar(); ?>
+					<?php get_sidebar('blog'); ?>
 				</div>
 			</div>
 		</div><!-- #content -->

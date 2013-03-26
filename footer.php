@@ -12,12 +12,29 @@
 	</div><!-- #main -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'uwp_boilerplate_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'uwp_boilerplate' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'uwp_boilerplate' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'uwp_boilerplate' ), 'uwp_boilerplate', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+		<div class="search-section">
+		  <div class="row">
+		    <div class="large-12 columns">
+		      <div class="search-bar show-for-small">
+		          <?php get_search_form(); ?>
+		      </div>  
+		    </div>
+		  </div>
+		</div>
+		<div class="footer-section">
+			<div class="row">
+			    <div class="large-12 columns">
+			      	<div class="footer-nav">
+						<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		  <div class="large-4 columns">
+		    <p>&copy; Copyright no one at all.</p>
+		  </div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

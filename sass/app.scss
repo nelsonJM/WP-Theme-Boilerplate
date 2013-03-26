@@ -90,6 +90,10 @@ h1, h2, h3, h4, h5 {
 	color: $text-color;
 }
 
+ul {
+	list-style: none;
+}
+
 .main-wrapper {
 		padding-bottom: $fifteen;
 	}
@@ -100,15 +104,9 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
-.search-bar {
-	padding: 22.5px 0;
-	padding: 1.40625em 0;
-	box-shadow: 0 -1px 0 #e4e8e6;
+#masthead {
+	padding-top: 1.4375em; /* 23px */
 }
-
-// .section-bg {
-// 	background: $section-bg;
-// }
 
 .contain-to-grid {
 	background: none;
@@ -222,6 +220,18 @@ box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
 
 }
 
+@media only screen and (min-width: 48em) {
+	.main-pillar {
+		box-shadow: 1px 0 0 #e4e8e6;
+		}
+	}
+
+@media only screen and (min-width: 48em) {
+	.banner-section {
+		padding-right: 26px;
+	}
+}
+
 .banner-section, .sidebar-area {
 	padding-top: $twentytwofive;
 }
@@ -230,6 +240,14 @@ box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
 	.sidebar-area {
 		box-shadow: -1px 0 0 #e4e8e6;
 		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 48em) {
+	.meat {
+		overflow: hidden;
+		padding-right: 7.1875em; /* 115px */
+		padding-bottom: $fortyfive;
 	}
 }
 
